@@ -1,0 +1,8 @@
+{
+  "name": "Les Recettes de Cuisine",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "1e4f00e8"
+}
