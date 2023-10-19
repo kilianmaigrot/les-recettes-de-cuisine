@@ -1,0 +1,389 @@
+{
+  "recettes": [
+    {
+      "id": 1,
+      "name": "Millefeuille de blinis",
+      "time": 25,
+      "steps": [
+        "Réaliser les blinis puis les réserver.",
+        "Emincer les oignons et les faire revenir dans une poêle avec 2 cuillères à soupe d'huile d'olive pendant 3 minutes. Ajouter les miettes de crabe et la ciboulette ciselée. Saler, poivrer et mélanger pendant encore quelques minutes (2/3 minutes environ). Retirer du feu.",
+        "Dans une autre poêle, chauffer 20 g de beurre et faire revenir les crevettes roses décortiquées sur feu moyen pendant 3 minutes. Saler, poivrer et ajouter les pincées de curry, puis les 20 cl de crème. Retirer du feu et mixer la préparation.",
+        "Monter les millefeuilles : poser un blini, ajouter la préparation au crabe, un deuxième blinis, la préparation au crabe et surmonter avec un troisième blinis. Verser un cordon de sauce aux crevettes autour."
+      ],
+      "ingredients": [
+        {
+          "name": "blinis",
+          "quantity": 16,
+          "unit": "unité"
+        },
+        {
+          "name": "oignon",
+          "quantity": 1,
+          "unit": "unité"
+        },
+        {
+          "name": "huile d'olive",
+          "quantity": 2,
+          "unit": "cuillère à soupe"
+        },
+        {
+          "name": "miettes de crabe",
+          "quantity": 250,
+          "unit": "grammes"
+        },
+        {
+          "name": "ciboulette",
+          "quantity": 25,
+          "unit": "unité"
+        },
+        {
+          "name": "beurre",
+          "quantity": 25,
+          "unit": "grammes"
+        },
+        {
+          "name": "curry",
+          "quantity": 3,
+          "unit": "pincées"
+        },
+        {
+          "name": "crème liquide",
+          "quantity": 20,
+          "unit": "cl"
+        },
+        {
+          "name": "poivre",
+          "quantity": 3,
+          "unit": "pincées"
+        },
+        {
+          "name": "sel",
+          "quantity": 3,
+          "unit": "pincées"
+        }
+      ],
+      "imagePath": "http://www.loupaisdaqui.fr/KMiERe/Millefeuille-de-blinis--26.jpg",
+      "type": "entrée"
+    },
+    {
+      "id": 2,
+      "name": "Verrines crabe, saumon, crevettes",
+      "time": 30,
+      "steps": [
+        "Dans un bol, mélangez la crème fraiche avec le jus d'un demi citron, l'échalote coupé en très petits morceaux et selon votre goût, soit de l'aneth, soit de la ciboulette.",
+        "Poivrez et mettez la préparation au frigo.",
+        "Coupez en petits dés : le pamplemousse, l'avocat, le saumon fumé, le crabe.",
+        "Décortiquez et couper les crevettes en petits dés.",
+        "Déposer au fond de chaque verrine, une cuillère de dés de crevettes.",
+        "Recouvrez de la préparation crème fraîche-citron.",
+        "Rajouter une couche de crabe, suivez par le pamplemousse et puis de l'avocat.",
+        "Rajoutez une autre couche de crème puis terminez par les dés de saumon. Rajoutez un peu de ciboulette ou d'aneth.",
+        "Remettez les verrines au frais.",
+        "Servir très frais."
+      ],
+      "ingredients": [
+        {
+          "name": "crème fraîche",
+          "quantity": 20,
+          "unit": "centiLitre"
+        },
+        {
+          "name": "échalote",
+          "quantity": 1,
+          "unit": "unité"
+        },
+        {
+          "name": "citron",
+          "quantity": 1,
+          "unit": "unité"
+        },
+        {
+          "name": "tranches de saumon fumé de qualité",
+          "quantity": 2,
+          "unit": "unités"
+        },
+        {
+          "name": "boîte de crabe",
+          "quantity": 1,
+          "unit": "unité"
+        },
+        {
+          "name": "crevettes",
+          "quantity": 12,
+          "unit": "unité"
+        },
+        {
+          "name": "pamplemousse rose",
+          "quantity": 1,
+          "unit": "unité"
+        },
+        {
+          "name": "Ciboulette ou de l'aneth",
+          "quantity": 1,
+          "unit": "unité"
+        },
+        {
+          "name": "avocat",
+          "quantity": 0.5,
+          "unit": "unité"
+        },
+        {
+          "name": "Poivre",
+          "quantity": 3,
+          "unit": "pincées"
+        }
+      ],
+      "imagePath": "https://i.pinimg.com/474x/76/d8/17/76d817d0ff780bf1168b4b3624d12231.jpg",
+      "type": "entrée"
+    },
+    {
+      "id": 3,
+      "name": "Homard à l'armoricaine",
+      "time": 90,
+      "steps": [
+        "Ebouillantez les tomates 30 secondes, rafraîchissez-les et pelez-les. Epépinez-les et coupez la chair en morceaux.",
+        "Pelez et hachez finement les échalotes, l'oignon, le céleri, la carotte. Pressez l'ail et ciselez l'estragon effeuillé.",
+        "Ebouillantez les homards 1 minute ou congelez-les avant de les couper. Détachez les pinces, coupez les queues des homards en tronçons et réservez le corail des têtes à part.",
+        "Faites chauffer une cocotte avec l'huile. Faites-y colorer les morceaux de homards. Ajoutez les légumes hachés, remuez et flambez au cognac.",
+        "Ajoutez les tomates, l'ail, l'estragon, puis le bouquet garni. Mouillez de vin blanc et allongez d'un peu d'eau pour que le liquide couvre les morceaux de homards.",
+        "Salez, poivrez et rajoutez une pincée de piment en poudre. Couvrez et laissez cuire 20 minutes à couvert.",
+        "Mélangez le beurre mou et la farine avec le corail récupéré dans les têtes des homards. Ajoutez le concentré de tomate et travaillez le mélange en pommade.",
+        "Egouttez les morceaux de homards cuits, réservez-les au chaud.",
+        "Faites réduire le jus de cuisson d'1/3 environ, ajoutez le beurre au corail. Portez à ébullition et laissez bouillir 2 minutes en remuant.",
+        "Filtrez la sauce et versez-la sur les homards. Portez à ébullition quelques minutes et servez."
+      ],
+      "ingredients": [
+        {
+          "name": "homards (800 g chaque environ)",
+          "quantity": 2,
+          "unit": "unité"
+        },
+        {
+          "name": "tomates",
+          "quantity": 5,
+          "unit": "unité"
+        },
+        {
+          "name": "petit bouquet d'estragon",
+          "quantity": 1,
+          "unit": "unité"
+        },
+        {
+          "name": "échalotes",
+          "quantity": 2,
+          "unit": "unités"
+        },
+        {
+          "name": "oignon",
+          "quantity": 1,
+          "unit": "unité"
+        },
+        {
+          "name": "petite branche de céleri",
+          "quantity": 1,
+          "unit": "unité"
+        },
+        {
+          "name": "carotte",
+          "quantity": 1,
+          "unit": "unité"
+        },
+        {
+          "name": "beurre",
+          "quantity": 75,
+          "unit": "gramme"
+        },
+        {
+          "name": "huile d'olive",
+          "quantity": 10,
+          "unit": "centiLitre"
+        },
+        {
+          "name": "cognac",
+          "quantity": 10,
+          "unit": "centiLitre"
+        }
+      ],
+      "imagePath": "https://cac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcac.2F2018.2F09.2F25.2F4441bdae-c0a2-4da0-9a85-39a2da5e6b3e.2Ejpeg/748x372/quality/90/crop-from/center/homard-a-l-armoricaine.jpeg",
+      "type": "plat"
+    },
+    {
+      "id": 4,
+      "name": "Chapon poché et rôti",
+      "time": 240,
+      "steps": [
+        "Saler et poivrer l'intérieur du chapon.",
+        "Faire un bouillon, avec moitié cidre et moitié eau. Saler et poivrer, et ajouter les feuilles de sauge. Porter ce bouillon à ébullition.",
+        "Ajouter 50 cl de crème, bien mélanger.",
+        "Plonger le chapon et le laisser cuire 45 min, à petits frémissements.",
+        "Egoutter le chapon, et conserver le bouillon.",
+        "Préchauffer le four à 210°C (thermostat 7). Préparer la farce : couper les pommes en petits dés et hacher 2 échalotes.",
+        "Ecraser 3 boudins blancs à la fourchette, sans la peau.",
+        "Mélanger le boudin aux pommes et aux échalotes, poivrer.",
+        "Farcir le chapon puis le tartiner largement de beurre ramolli, saler et poivrer.",
+        "Mettre le chapon dans un plat à four, ajouter un peu de bouillon dans le fond du plat, avec 1 oignon et 3 échalotes.",
+        "Enfourner 30 minutes à 210°C.",
+        "Baisser le four à 180°C (thermostat 6), et laisser cuire 1h30, en arrosant régulièrement le chapon avec du bouillon (il doit toujours y avoir du bouillon dans le plat !).",
+        "Puis, arroser le chapon avec 15 cl de vin jaune, et cuire encore 15 min.",
+        "Sortir le chapon du four, l'envelopper de 4 couches de papier aluminium, et le laisser reposer pendant 30 min. De cette manière, le chapon termine sa cuisson grâce à la chaleur emmagasinée en périphérie.",
+        "Pendant ce temps, dégraisser la sauce du plat de cuisson, ajouter un petit peu d'eau, et faire chauffer sur le feu durant 2 à 3 min pour faire fondre les sucs collés au fond du plat. On peut ajouter un peu de crème à cette sauce !",
+        "Rectifier l'assaisonnement si besoin et verser dans une saucière chaude. Découper le chapon, le disposer sur un plat chaud, avec la farce au milieu."
+      ],
+      "ingredients": [
+        {
+          "name": "chapon de 3,5 kg",
+          "quantity": 1,
+          "unit": "unité"
+        },
+        {
+          "name": "cidre",
+          "quantity": 3,
+          "unit": "verre"
+        },
+        {
+          "name": "crème fraîche",
+          "quantity": 50,
+          "unit": "centiLitre"
+        },
+        {
+          "name": "boudins blancs",
+          "quantity": 3,
+          "unit": "unités"
+        },
+        {
+          "name": "pommes",
+          "quantity": 3,
+          "unit": "unité"
+        },
+        {
+          "name": "échalotes",
+          "quantity": 5,
+          "unit": "unité"
+        },
+        {
+          "name": "oignon",
+          "quantity": 1,
+          "unit": "unité"
+        },
+        {
+          "name": "vin jaune",
+          "quantity": 15,
+          "unit": "centiLitre"
+        },
+        {
+          "name": "Sel",
+          "quantity": 3,
+          "unit": "pincée"
+        },
+        {
+          "name": "poivre",
+          "quantity": 2,
+          "unit": "pincée"
+        },
+        {
+          "name": "beurre",
+          "quantity": 1,
+          "unit": "cuillère à soupe"
+        }
+      ],
+      "imagePath": "https://s3.eu-central-1.amazonaws.com/images-recettes/images/AF0D7216-0188-4551-8E2F-6B5BD43DF469_500.jpg",
+      "type": "plat"
+    },
+    {
+      "id": 5,
+      "name": "Marrons glacés faciles",
+      "time": 100,
+      "steps": [
+        "Incisez les marrons dans le sens le plus large avec un couteau pointu ou un cutter de façon à entailler les deux peaux mais pas la chair des fruits, en passant par la partie pointue et la partie plus claire à la base des marrons.",
+        "Plongez-les dans une terrine d'eau froide.",
+        "Après 5 min prélever 10 marrons, les déposer dans une casserole d'eau froide et porter à ébullition pendant 2 à 3 min, à ce moment les peaux se détachent presque toutes seules.",
+        "Pelez les marrons et recommencez l'opération jusqu'à épuisement. Ceci est la partie la plus ardue car les marrons ont tendance à se briser et de plus on se brûle, mais courage ça vaut le coup.",
+        "Déposez les marrons dans une casserole d'eau froide et portez à faible ébullition pendant 15 min (les marrons doivent être cuits mais pas trop sinon ils réduiraient en purée).",
+        "En fin de cuisson, jetez les marrons dans une terrine d'eau bien froide afin de les raffermir.",
+        "Dans une cocotte-minute de préférence, mettez l'eau et le sucre. Mettez sur feu moyen, lorsque le sucre est devenu transparent augmentez le feu.",
+        "Dès que le sirop bout ajoutez la gousse de vanille fendue en 2. Laissez bouillir à gros bouillons pendant 3 min et plongez-y les marrons installés dans le panier de la cocotte, cela les protègera des chocs.",
+        "Laissez reprendre l’ébullition et laissez à frémissement pendant 1 min. Éteignez le feu et laissez refroidir tel quel 24 heures.",
+        "Le lendemain égouttez les marrons et portez le sirop à ébullition pendant 3 à 4 min puis plongez le panier de marrons et laissez frémir pendant 3 min. Renouvelez l'opération le troisième et quatrième jour.",
+        "Pour terminer, sortez les marrons refroidis et posez-les sur du papier sulfurisé à l'air libre afin qu'ils sèchent.",
+        "Le sirop restant pourra aromatiser des yaourts ou du fromage blanc."
+      ],
+      "ingredients": [
+        {
+          "name": "marrons",
+          "quantity": 1000,
+          "unit": "gramme"
+        },
+        {
+          "name": "sucre en poudre",
+          "quantity": 1500,
+          "unit": "gramme"
+        },
+        {
+          "name": "eau",
+          "quantity": 1500,
+          "unit": "centiLitre"
+        },
+        {
+          "name": "gousse de vanille",
+          "quantity": 1,
+          "unit": "unité"
+        }
+      ],
+      "imagePath": "https://aufilduthym.fr/wp-content/uploads/2016/12/marron_glaces_au_fil_du_thym.jpg",
+      "type": "dessert"
+    },
+    {
+      "id": 6,
+      "name": "Bûche de Noël facile",
+      "time": 55,
+      "steps": [
+        "Séparer les blancs des jaunes d'oeufs.",
+        "Fouetter les jaunes d'oeuf avec le sucre et 3 cuillères à soupe d'eau tiède, pour faire mousser.",
+        "Ajouter, peu à peu, la farine et la levure.",
+        "Monter les blancs d'oeuf en neige puis les incorporer délicatement au mélange précédent.",
+        "Préchauffer le four à 180°C (thermostat 6). Etaler la pâte dans un moule long et plat (type lèchefrite) recouvert d'un papier cuisson sur 1 cm d'épaisseur.",
+        "Enfourner pour 10 à 15 minutes de cuisson, le biscuit doit être légèrement doré.",
+        "A la sortie du four, poser sur le biscuit un torchon propre humide puis le démouler dessus et rouler. Laisser refroidir.",
+        "Briser le chocolat, et le faire fondre au bain-marie.",
+        "Lorsqu'il est fondu, ajouter beurre mou et mélanger.",
+        "Dérouler le gâteau et y étaler les 2/3 du chocolat. Rouler ensuite à nouveau le biscuit sur lui-même.",
+        "Recouvrir le biscuit du reste de chocolat puis, à l'aide d'une fourchette, strier le dessus.",
+        "Faire prendre au réfrigérateur."
+      ],
+      "ingredients": [
+        {
+          "name": "oeufs",
+          "quantity": 4,
+          "unit": "unité"
+        },
+        {
+          "name": "sucre en poudre",
+          "quantity": 240,
+          "unit": "gramme"
+        },
+        {
+          "name": "farine",
+          "quantity": 100,
+          "unit": "gramme"
+        },
+        {
+          "name": "levure alsacienne",
+          "quantity": 11,
+          "unit": "gramme"
+        },
+        {
+          "name": "chocolat",
+          "quantity": 250,
+          "unit": "gramme"
+        },
+        {
+          "name": "beurre",
+          "quantity": 200,
+          "unit": "gramme"
+        }
+      ],
+      "imagePath": "https://static.cuisineaz.com/400x320/i14640-buche-de-noel-aux-carambars.jpg",
+      "type": "dessert"
+    }
+  ]
+}
