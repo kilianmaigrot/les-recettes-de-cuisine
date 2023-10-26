@@ -9,9 +9,76 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-title size="large">Création recette</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+<!--Formulaire-->
+  <ion-list>
+    <ion-item>
+      <ion-input class="ion-text-capitalize" name="nomRecette" id="nomRecette" [(ngModel)]="recette.name" #name="ngModel"
+        required="true"
+        label=""
+        labelPlacement="stacked"
+        [clearInput]="true"
+        placeholder="Entrez le nom de votre recette"
+        value=""
+      >
+      </ion-input>
+    </ion-item>
+      <ion-item>
+        <ion-input name="nomPreparation" id="nomPreparation" [(ngModel)]="recette.time" #time="ngModel"
+          required="false"
+          label=""
+          type="number"
+          labelPlacement="stacked"
+          [clearInput]="true"
+          placeholder="Durée de préparation (en minutes)"
+          value=""
+        >
+        </ion-input>
+      </ion-item>
+
+      <!--boutons radio-->
+      <ion-item>
+        <ion-select label="Type de plat" placeholder="Veuillez choisir" required="false" name="nomType" id="nomType" [(ngModel)]="recette.Type" #type="ngModel">
+          <ion-select-option value="aperitif">Apéritif</ion-select-option>
+          <ion-select-option value="entree">Entrée</ion-select-option>
+          <ion-select-option value="plat">Plat</ion-select-option>
+          <ion-select-option value="dessert">Dessert</ion-select-option>
+          <ion-select-option value="autre">Autre</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <!--Boucle pour les ingredients-->
+      <span *ngFor="let ingredient of recette.ingredients; let ingredientNumber = index">
+        <ion-item>
+          <ion-textarea class="ion-margin-top" name="areaIngredient.[{{ingredientNumber}}]" id="ingredient.[{{ingredientNumber}}]"  label="Ingredient" labelPlacement="floating" placeholder="ingredients" [(ngModel)]="recette.ingredients[ingredientNumber].name" #name="ngModel"></ion-textarea>
+          <ion-textarea class="ion-margin-top" name="areaQuantite.[{{ingredientNumber}}]" id="quantite.[{{ingredientNumber}}]"  label="Quantité" labelPlacement="floating" placeholder="Quantité" [(ngModel)]="recette.ingredients[ingredientNumber].quantity" #quantity="ngModel"></ion-textarea>
+          <ion-textarea class="ion-margin-top" name="areaUnite.[{{ingredientNumber}}]" id="unite.[{{ingredientNumber}}]"  label="Unité" labelPlacement="floating" placeholder="Unité" [(ngModel)]="recette.ingredients[ingredientNumber].unit" #unit="ngModel"></ion-textarea>
+          <ion-icon id="croix" (click)="onDeleteIng(ingredientNumber)" name="close-outline"></ion-icon>
+        </ion-item>
+      </span>
+
+      <!--Bouton ajout ingredient-->
+      <button id="etapeIngredient" (click)="createIng()">Ajouter un ingredient </button>
+  
+  
+
+  <!--Boucle pour faire les étapes-->
+  <span *ngFor="let step of recette.steps; let stepNumber = index; trackBy: trackByIdx">
+    <ion-item>
+      <ion-textarea class="ion-margin-top" name="areaEtape.[{{stepNumber}}]" id="etape.[{{stepNumber}}]"  label="Etape" labelPlacement="floating" placeholder="Entrez votre etape" [(ngModel)]="recette.steps[stepNumber]"  #steps="ngModel"></ion-textarea>
+      <ion-icon id="croix" (click)="onDeleteStep(stepNumber)" name="close-outline"></ion-icon>
+    </ion-item>
+  </span>
+
+    <!--Bouton pour les étapes-->
+    <button id="btnSteps" (click)="createStep()">Ajouter une étape </button>
+  </ion-list>    
+  <br/>
+    <!--Bouton de validation total-->
+
+    <button [disabled] *ngIf="recette.name" id="btnSubmit" (click)="onSubmit()" buttonType="submit">Valider</button>
+      
 </ion-content>
