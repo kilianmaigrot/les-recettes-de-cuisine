@@ -1,0 +1,48 @@
+#etapeIngredient { 
+    background-color: rgb(37, 236, 50);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1.5vh;
+    margin: 2vh;
+    height: 5vh;
+    padding: 1vh;
+}
+
+#btnSteps{
+    background-color: rgb(236, 105, 35);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1.5vh;
+    margin: 2vh;
+    height: 5vh;
+    padding: 1vh;
+}
+
+.alert-button-inner.sc-ion-alert-md{
+    --ion-color-primary : black !important; 
+}
+
+#ingredient{
+    min-width: 50%;
+    padding: 0.5vh;
+}
+#quantite{
+    min-width: 10%;
+}
+#croix{
+    min-width: 5%;
+}
+
+#btnSubmit{
+
+    background-color: rgb(6, 151, 209);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1.5vh;
+    margin: 2vh;
+    height: 5vh;
+    padding: 1vh;
+}
