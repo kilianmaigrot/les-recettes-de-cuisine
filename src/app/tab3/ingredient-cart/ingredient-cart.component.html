@@ -1,0 +1,63 @@
+<ion-card>
+  <ion-card-content> 
+        
+    <ion-accordion-group [multiple]="true" [value]="['first', 'second']">
+      
+      <ion-accordion value="first" class="ion-margin-bottom">
+        <ion-item slot="header" color="light">
+          <ion-label class="ingHeader">
+            <span>Ingrédients à acheter</span>
+            <span class="ingAmount">{{listService.cartList.length}}</span>
+          </ion-label>
+        </ion-item>
+        <div slot="content">
+          <ul *ngFor="let cartElement of listService.cartList, let rankCartElement = index">
+            <li class="ingIndividual">
+              <span class="ingQuantity">
+                <span *ngIf="listService.cartList[0]">{{ listService.cartList[rankCartElement].quantity }} </span>
+                <span *ngIf="listService.cartList[0]">{{ listService.cartList[rankCartElement].unit }}</span>
+                de 
+                <span *ngIf="listService.cartList[0]">{{ listService.cartList[rankCartElement].name }}</span>
+              </span>
+              <ion-icon name="bag-add-outline" id="click-trigger-cart-{{rankCartElement}}"  class="ingCart" (click)="moveIngtoBought(rankCartElement, listService.cartList[rankCartElement].id)"></ion-icon>
+              <ion-popover trigger="click-trigger-cart-{{rankCartElement}}" triggerAction="click">
+                <ng-template>
+                  <ion-content class="ion-padding">Ingrédient déplacé dans la liste des ingrédients déjà achetés.</ion-content>
+                </ng-template>
+              </ion-popover>
+            </li>
+          </ul>
+        </div>
+      </ion-accordion>    
+      
+      <ion-accordion value="second" class="ion-margin-bottom">
+        <ion-item slot="header" color="light">
+          <ion-label class="ingHeader">
+            <span>Ingrédients achetés</span>
+            <span class="ingAmount">{{listService.cartListDone.length}}</span>
+          </ion-label>
+        </ion-item>
+        <div slot="content">
+          <ul *ngFor="let cartElementDone of listService.cartListDone, let rankCartDoneElement = index">
+            <li class="ingIndividual">
+              <span class="ingQuantity">
+                <span *ngIf="listService.cartListDone[0]">{{ listService.cartListDone[rankCartDoneElement].quantity }} </span>
+                <span *ngIf="listService.cartListDone[0]">{{ listService.cartListDone[rankCartDoneElement].unit }}</span>
+                de 
+                <span *ngIf="listService.cartListDone[0]">{{ listService.cartListDone[rankCartDoneElement].name }}</span>
+              </span>
+              <ion-icon name="trash-outline" id="click-trigger-cartDone-{{rankCartDoneElement}}"  class="ingCart" (click)="deleteIngfromBought(listService.cartListDone[rankCartDoneElement].id)"></ion-icon>
+              <ion-popover trigger="click-trigger-cartDone-{{rankCartDoneElement}}" triggerAction="click">
+                <ng-template>
+                  <ion-content class="ion-padding">Ingrédient supprimé.</ion-content>
+                </ng-template>
+              </ion-popover>
+            </li>
+          </ul>
+        </div>
+      </ion-accordion>      
+      
+    </ion-accordion-group>
+    
+  </ion-card-content>
+</ion-card>

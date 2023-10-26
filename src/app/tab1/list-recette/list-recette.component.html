@@ -1,0 +1,18 @@
+<ion-card>
+  <ion-card-content>
+    
+    
+    <ion-list *ngFor="let recipe of listService.recipesList; let rankRecipe = index">
+      
+      <ion-item routerLink="{{recipe.id}}">
+          <ion-thumbnail slot="start">
+            <img alt="{{recipe.name}}" src="{{recipe.imagePath}}" />
+          </ion-thumbnail>
+          <ion-label class="ion-text-wrap">{{recipe.name}}</ion-label>
+      </ion-item>
+      
+    </ion-list>
+    
+    
+  </ion-card-content>
+</ion-card>
