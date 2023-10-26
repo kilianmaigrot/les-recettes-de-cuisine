@@ -118,7 +118,7 @@
           "unit": "unité"
         },
         {
-          "name": "Ciboulette ou de l'aneth",
+          "name": "Ciboulette",
           "quantity": 1,
           "unit": "unité"
         },
@@ -133,8 +133,7 @@
           "unit": "pincées"
         }
       ],
-      "imagePath": "https://i.pinimg.com/474x/76/d8/17/76d817d0ff780bf1168b4b3624d12231.jpg",
-      "type": "Entrée"
+      "imagePath": "https://i.pinimg.com/474x/76/d8/17/76d817d0ff780bf1168b4b3624d12231.jpg"
     },
     {
       "id": 3,
@@ -170,7 +169,7 @@
         },
         {
           "name": "échalotes",
-          "quantity": 2,
+          "quantity": "3",
           "unit": "unités"
         },
         {
@@ -204,8 +203,7 @@
           "unit": "centiLitre"
         }
       ],
-      "imagePath": "https://cac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcac.2F2018.2F09.2F25.2F4441bdae-c0a2-4da0-9a85-39a2da5e6b3e.2Ejpeg/748x372/quality/90/crop-from/center/homard-a-l-armoricaine.jpeg",
-      "type": "Plat"
+      "imagePath": "https://cac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcac.2F2018.2F09.2F25.2F4441bdae-c0a2-4da0-9a85-39a2da5e6b3e.2Ejpeg/748x372/quality/90/crop-from/center/homard-a-l-armoricaine.jpeg"
     },
     {
       "id": 4,
@@ -232,7 +230,7 @@
       "ingredients": [
         {
           "name": "chapon",
-          "quantity": 3.5,
+          "quantity": "3.4",
           "unit": "Kg"
         },
         {
@@ -286,8 +284,7 @@
           "unit": "cuillère à soupe"
         }
       ],
-      "imagePath": "https://s3.eu-central-1.amazonaws.com/images-recettes/images/AF0D7216-0188-4551-8E2F-6B5BD43DF469_500.jpg",
-      "type": "Plat"
+      "imagePath": "https://s3.eu-central-1.amazonaws.com/images-recettes/images/AF0D7216-0188-4551-8E2F-6B5BD43DF469_500.jpg"
     },
     {
       "id": 5,
@@ -310,7 +307,7 @@
       "ingredients": [
         {
           "name": "marrons",
-          "quantity": 1000,
+          "quantity": "1000",
           "unit": "gramme"
         },
         {
@@ -329,8 +326,7 @@
           "unit": "unité"
         }
       ],
-      "imagePath": "https://assets.afcdn.com/recipe/20131228/37848_w1000h747c1cx1296cy968.webp",
-      "type": "Dessert"
+      "imagePath": "https://assets.afcdn.com/recipe/20131228/37848_w1000h747c1cx1296cy968.webp"
     },
     {
       "id": 6,
@@ -353,7 +349,7 @@
       "ingredients": [
         {
           "name": "oeufs",
-          "quantity": 4,
+          "quantity": "3",
           "unit": "unité"
         },
         {
@@ -368,7 +364,7 @@
         },
         {
           "name": "levure alsacienne",
-          "quantity": 11,
+          "quantity": "10",
           "unit": "gramme"
         },
         {
@@ -381,9 +377,7 @@
           "quantity": 200,
           "unit": "gramme"
         }
-      ],
-      "imagePath": "https://static.cuisineaz.com/400x320/i14640-buche-de-noel-aux-carambars.jpg",
-      "type": "Dessert"
+      ]
     },
     {
       "id": 7,
@@ -406,7 +400,7 @@
         },
         {
           "name": "Pâte de wasabi",
-          "quantity": "10",
+          "quantity": "5",
           "unit": "g"
         }
       ],
@@ -449,6 +443,12 @@
       "quantity": 240,
       "unit": "gramme",
       "id": 28
+    },
+    {
+      "name": "chapon",
+      "quantity": 3.5,
+      "unit": "Kg",
+      "id": 29
     }
   ],
   "cartDone": [

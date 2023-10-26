@@ -79,6 +79,7 @@
   <br/>
     <!--Bouton de validation total-->
 
-    <button [disabled] *ngIf="recette.name" id="btnSubmit" (click)="onSubmit()" buttonType="submit">Valider</button>
+    <button [disabled] *ngIf="recette.name && !editedRecipeId" id="btnSubmit" (click)="onSubmit()" buttonType="submit">Valider</button>
+    <button [disabled] *ngIf="editedRecipeId" id="btnSubmit" (click)="onEdit()" buttonType="submit">Modifier</button>
       
 </ion-content>

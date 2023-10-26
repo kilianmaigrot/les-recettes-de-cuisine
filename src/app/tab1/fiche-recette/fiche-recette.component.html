@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      {{recipeInformations.name}}
+      {{listService.recipeInformations.name}}
     </ion-title>
     <ion-buttons slot="start">
       <ion-back-button routerLink="/tabs/tab1"></ion-back-button>
@@ -13,13 +13,13 @@
 <ion-content [fullscreen]="true">  
   <ion-card>
     
-    <img *ngIf="recipeInformations.imagePath" alt="{{recipeInformations.name}}" src="{{recipeInformations.imagePath}}" />
-    <img *ngIf="!recipeInformations.imagePath" alt="{{recipeInformations.name}}" src="assets/imgattente.png" />
+    <img *ngIf="listService.recipeInformations.imagePath" alt="{{listService.recipeInformations.name}}" src="{{listService.recipeInformations.imagePath}}" />
+    <img *ngIf="!listService.recipeInformations.imagePath" alt="{{listService.recipeInformations.name}}" src="assets/imgattente.png" />
     <ion-card-header>
-      <ion-card-subtitle ><span class="ion-text-capitalize">{{recipeInformations.type}}</span> - {{recipeInformations.time }}</ion-card-subtitle>
+      <ion-card-subtitle ><span class="ion-text-capitalize">{{listService.recipeInformations.type}}</span> - {{listService.recipeInformations.time }}</ion-card-subtitle>
       <ion-card-title>
-        <span>{{recipeInformations.name}}</span>
-        <span id="editButton">Modifier<ion-icon slot="end" name="create-sharp"></ion-icon></span>
+        <span>{{listService.recipeInformations.name}}</span>
+        <span id="editButton" routerLink="/tabs/tab2/{{listService.recipeInformations.id}}">Modifier<ion-icon slot="end" name="create-sharp"></ion-icon></span>
       </ion-card-title>
     </ion-card-header>
     
@@ -31,17 +31,17 @@
           <ion-item slot="header" color="light">
             <ion-label class="ingHeader">
               <span>Ingrédients</span>
-              <span class="ingAmount">{{recipeInformations.ingredients.length}}</span>
+              <span class="ingAmount">{{listService.recipeInformations.ingredients.length}}</span>
             </ion-label>
           </ion-item>
           <div slot="content">
-            <ul *ngFor="let ingredient of recipeInformations.ingredients, let rankIngredient = index">
+            <ul *ngFor="let ingredient of listService.recipeInformations.ingredients, let rankIngredient = index">
               <li class="ingIndividual">
                 <span class="ingQuantity">
-                  <span *ngIf="recipeInformations.ingredients[0]">{{ recipeInformations.ingredients[rankIngredient].quantity }} </span>
-                  <span *ngIf="recipeInformations.ingredients[0]">{{ recipeInformations.ingredients[rankIngredient].unit }}</span>
+                  <span *ngIf="listService.recipeInformations.ingredients[0]">{{ listService.recipeInformations.ingredients[rankIngredient].quantity }} </span>
+                  <span *ngIf="listService.recipeInformations.ingredients[0]">{{ listService.recipeInformations.ingredients[rankIngredient].unit }}</span>
                   de 
-                  <span *ngIf="recipeInformations.ingredients[0]">{{ recipeInformations.ingredients[rankIngredient].name }}</span>
+                  <span *ngIf="listService.recipeInformations.ingredients[0]">{{ listService.recipeInformations.ingredients[rankIngredient].name }}</span>
                 </span>
                 <ion-icon name="basket-outline" id="click-trigger-ingredient-{{rankIngredient}}"  class="ingCart" (click)="exportIngtoCart(rankIngredient)"></ion-icon>
                 <ion-popover trigger="click-trigger-ingredient-{{rankIngredient}}" triggerAction="click">
@@ -58,13 +58,13 @@
           <ion-item slot="header" color="light">
             <ion-label class="stepHeader">
               <span>Étapes de la recette</span>
-              <span class="stepAmount">{{recipeInformations.steps.length}}</span>
+              <span class="stepAmount">{{listService.recipeInformations.steps.length}}</span>
             </ion-label>
           </ion-item>
           <div slot="content">
-            <ion-list *ngFor="let recipeStep of recipeInformations.steps, let rankStep = index">
+            <ion-list *ngFor="let recipeStep of listService.recipeInformations.steps, let rankStep = index">
               <ion-item>Étape {{rankStep+1}}</ion-item>
-              {{recipeInformations.steps[rankStep]}}
+              {{listService.recipeInformations.steps[rankStep]}}
             </ion-list>
           </div>
         </ion-accordion>

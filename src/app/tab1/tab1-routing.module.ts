@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { Tab1Page } from './tab1.page';
 import { FicheRecetteComponent } from './fiche-recette/fiche-recette.component';
+import { Tab2Page } from '../tab2/tab2.page';
 
 const routes: Routes = [
   {
