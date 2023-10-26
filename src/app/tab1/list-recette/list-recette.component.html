@@ -1,18 +1,34 @@
 <ion-card>
   <ion-card-content>
     
+    <ion-searchbar (ionInput)="handleInput($event)"></ion-searchbar>
     
-    <ion-list *ngFor="let recipe of listService.recipesList; let rankRecipe = index">
-      
-      <ion-item routerLink="{{recipe.id}}">
+    <span *ngIf="results.length > 0">
+      <ion-list *ngFor="let recipe of results; let rankRecipe = index">
+        
+        <ion-item routerLink="{{recipe.id}}">
           <ion-thumbnail slot="start">
             <img *ngIf="recipe.imagePath" alt="{{recipe.name}}" src="{{recipe.imagePath}}" />
             <img *ngIf="!recipe.imagePath" alt="{{recipe.name}}" src="assets/icon.jpg" />
           </ion-thumbnail>
           <ion-label class="ion-text-wrap">{{recipe.name}}</ion-label>
-      </ion-item>
-      
-    </ion-list>
+        </ion-item>
+        
+      </ion-list>
+    </span>
+    
+    <span *ngIf="results.length == 0">
+      <ion-list *ngFor="let recipe of listService.recipesList; let rankRecipe = index">
+        
+        <ion-item routerLink="{{recipe.id}}">
+          <ion-thumbnail slot="start">
+            <img alt="{{recipe.name}}" src="{{recipe.imagePath}}" />
+          </ion-thumbnail>
+          <ion-label class="ion-text-wrap">{{recipe.name}}</ion-label>
+        </ion-item>
+        
+      </ion-list>
+    </span>
     
     
   </ion-card-content>
