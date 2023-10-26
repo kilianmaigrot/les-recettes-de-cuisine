@@ -384,6 +384,33 @@
       ],
       "imagePath": "https://static.cuisineaz.com/400x320/i14640-buche-de-noel-aux-carambars.jpg",
       "type": "Dessert"
+    },
+    {
+      "id": 7,
+      "name": "Sashimi de saumon",
+      "time": 10,
+      "steps": [
+        "Découpez le saumon en tranches régulières et fines.",
+        "Présentez les tranches sur un plat avec la sauce soja et le wasabi."
+      ],
+      "ingredients": [
+        {
+          "name": "Coeur de Saumon",
+          "quantity": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Sauce soja",
+          "quantity": "10",
+          "unit": "cl"
+        },
+        {
+          "name": "Pâte de wasabi",
+          "quantity": "10",
+          "unit": "g"
+        }
+      ],
+      "type": "plat"
     }
   ],
   "cart": [
@@ -426,9 +453,9 @@
   ],
   "cartDone": [
     {
-      "name": "Poivre",
-      "quantity": 3,
-      "unit": "pincées",
+      "name": "Coeur de Saumon",
+      "quantity": "500",
+      "unit": "g",
       "id": 29
     }
   ]

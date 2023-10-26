@@ -13,7 +13,8 @@
 <ion-content [fullscreen]="true">  
   <ion-card>
     
-    <img alt="{{recipeInformations.name}}" src="{{recipeInformations.imagePath}}" />
+    <img *ngIf="recipeInformations.imagePath" alt="{{recipeInformations.name}}" src="{{recipeInformations.imagePath}}" />
+    <img *ngIf="!recipeInformations.imagePath" alt="{{recipeInformations.name}}" src="assets/imgattente.png" />
     <ion-card-header>
       <ion-card-subtitle ><span class="ion-text-capitalize">{{recipeInformations.type}}</span> - {{recipeInformations.time }}</ion-card-subtitle>
       <ion-card-title>

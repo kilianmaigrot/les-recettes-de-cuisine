@@ -6,7 +6,8 @@
       
       <ion-item routerLink="{{recipe.id}}">
           <ion-thumbnail slot="start">
-            <img alt="{{recipe.name}}" src="{{recipe.imagePath}}" />
+            <img *ngIf="recipe.imagePath" alt="{{recipe.name}}" src="{{recipe.imagePath}}" />
+            <img *ngIf="!recipe.imagePath" alt="{{recipe.name}}" src="assets/icon.jpg" />
           </ion-thumbnail>
           <ion-label class="ion-text-wrap">{{recipe.name}}</ion-label>
       </ion-item>
