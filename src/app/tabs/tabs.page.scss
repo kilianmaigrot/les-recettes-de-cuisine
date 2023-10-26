@@ -1,1 +1,16 @@
+@media (prefers-color-scheme: light)
+{
+    ion-tab-bar {
+        --color: #808080 !important;
+        --color-selected: #000000 !important
+    }
+}
 
+
+@media (prefers-color-scheme: dark)
+{
+    ion-tab-bar {
+        --color: #808080 !important;
+        --color-selected: #ffffff !important
+    }
+}

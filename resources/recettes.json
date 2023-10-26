@@ -62,8 +62,8 @@
           "unit": "pincées"
         }
       ],
-      "imagePath": "http://www.loupaisdaqui.fr/KMiERe/Millefeuille-de-blinis--26.jpg",
-      "type": "entrée"
+      "imagePath": "https://assets.afcdn.com/recipe/20130627/53054_w1000h1500c1.webp",
+      "type": "Entrée"
     },
     {
       "id": 2,
@@ -98,9 +98,9 @@
           "unit": "unité"
         },
         {
-          "name": "tranches de saumon fumé de qualité",
+          "name": "saumon fumé de qualité",
           "quantity": 2,
-          "unit": "unités"
+          "unit": "tranches"
         },
         {
           "name": "boîte de crabe",
@@ -134,7 +134,7 @@
         }
       ],
       "imagePath": "https://i.pinimg.com/474x/76/d8/17/76d817d0ff780bf1168b4b3624d12231.jpg",
-      "type": "entrée"
+      "type": "Entrée"
     },
     {
       "id": 3,
@@ -205,7 +205,7 @@
         }
       ],
       "imagePath": "https://cac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcac.2F2018.2F09.2F25.2F4441bdae-c0a2-4da0-9a85-39a2da5e6b3e.2Ejpeg/748x372/quality/90/crop-from/center/homard-a-l-armoricaine.jpeg",
-      "type": "plat"
+      "type": "Plat"
     },
     {
       "id": 4,
@@ -231,9 +231,9 @@
       ],
       "ingredients": [
         {
-          "name": "chapon de 3,5 kg",
-          "quantity": 1,
-          "unit": "unité"
+          "name": "chapon",
+          "quantity": 3.5,
+          "unit": "Kg"
         },
         {
           "name": "cidre",
@@ -287,7 +287,7 @@
         }
       ],
       "imagePath": "https://s3.eu-central-1.amazonaws.com/images-recettes/images/AF0D7216-0188-4551-8E2F-6B5BD43DF469_500.jpg",
-      "type": "plat"
+      "type": "Plat"
     },
     {
       "id": 5,
@@ -329,8 +329,8 @@
           "unit": "unité"
         }
       ],
-      "imagePath": "https://aufilduthym.fr/wp-content/uploads/2016/12/marron_glaces_au_fil_du_thym.jpg",
-      "type": "dessert"
+      "imagePath": "https://assets.afcdn.com/recipe/20131228/37848_w1000h747c1cx1296cy968.webp",
+      "type": "Dessert"
     },
     {
       "id": 6,
@@ -383,7 +383,53 @@
         }
       ],
       "imagePath": "https://static.cuisineaz.com/400x320/i14640-buche-de-noel-aux-carambars.jpg",
-      "type": "dessert"
+      "type": "Dessert"
+    }
+  ],
+  "cart": [
+    {
+      "name": "oeufs",
+      "quantity": 4,
+      "unit": "unité",
+      "id": 10
+    },
+    {
+      "name": "oeufs",
+      "quantity": 4,
+      "unit": "unité",
+      "id": 22
+    },
+    {
+      "name": "sucre en poudre",
+      "quantity": 240,
+      "unit": "gramme",
+      "id": 24
+    },
+    {
+      "name": "crème fraîche",
+      "quantity": 20,
+      "unit": "centiLitre",
+      "id": 26
+    },
+    {
+      "name": "saumon fumé de qualité",
+      "quantity": 2,
+      "unit": "tranches",
+      "id": 27
+    },
+    {
+      "name": "sucre en poudre",
+      "quantity": 240,
+      "unit": "gramme",
+      "id": 28
+    }
+  ],
+  "cartDone": [
+    {
+      "name": "Poivre",
+      "quantity": 3,
+      "unit": "pincées",
+      "id": 29
     }
   ]
 }
