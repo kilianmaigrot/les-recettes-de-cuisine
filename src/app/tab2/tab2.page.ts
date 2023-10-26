@@ -18,6 +18,7 @@ export class Tab2Page implements OnInit {
     name: null,
     time: null,
     steps: [""],
+    type: null,
     ingredients: [{
       name: null,
       quantity: null,
@@ -93,6 +94,7 @@ export class Tab2Page implements OnInit {
       this.recette.name = recipeEdited.name;
       this.recette.time = recipeEdited.time;
       this.recette.steps = recipeEdited.steps;
+      this.recette.type = recipeEdited.type;
       this.recette.ingredients = recipeEdited.ingredients;
       this.recette.imagePath = recipeEdited.imagePath;
     },

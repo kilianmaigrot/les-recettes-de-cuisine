@@ -151,6 +151,7 @@
         "Faites réduire le jus de cuisson d'1/3 environ, ajoutez le beurre au corail. Portez à ébullition et laissez bouillir 2 minutes en remuant.",
         "Filtrez la sauce et versez-la sur les homards. Portez à ébullition quelques minutes et servez."
       ],
+      "type": "plat",
       "ingredients": [
         {
           "name": "homards (800 g chaque environ)",
